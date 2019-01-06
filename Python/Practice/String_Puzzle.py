@@ -1,5 +1,5 @@
 def word_puzzle():
-    print 'Started'
+    print('Started')
     for i in range(365445,1000000):
       cool_num = i
       lv_str = str(i)
@@ -17,7 +17,7 @@ def word_puzzle():
             lv_str = str(i)
             lv_str_slice = lv_str
             if(lv_str_slice == lv_str[::-1]):
-              print cool_num
+              print(cool_num)
             else:
               continue
           else:
@@ -27,4 +27,4 @@ def word_puzzle():
       else:
         continue
 
-    
+word_puzzle()

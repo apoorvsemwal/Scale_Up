@@ -60,6 +60,5 @@ for pet in pets.pets:
     print(pet.description())
     pet.eat()
 
-print(f"And they are all {dog1.species}, of course.")
+print(f"And they are all {dog1.species}, of course.") #Formatter String Used for printing
 pets.walk()
-

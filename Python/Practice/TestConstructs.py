@@ -13,7 +13,7 @@ print(type(test_tuple1))
 print(type(test_tuple2))
 # Above both are valid ways to define a tuple
 # Tuples are imutable cant add or change whereas items in a list can be deleted added
-# So use tuple when you want safety
+# So use tuple when you want safety and are sure that the contents will not be changing
 
 # Loop
 for lang in test_tuple1:
@@ -28,7 +28,7 @@ print(l[1:3])  # excludes last index
 # lists are mutable
 l[1] = 99
 print(l)
-print(id(l))  # same id means the same object got changed
+print(id(l))  # same id means the same object got changed and no new object got created
 
 # Strings are immutable
 test_string = "Hello"
@@ -77,7 +77,7 @@ for count, row in enumerate(game):
 a = ['bar','foo',10,True]
 #print(min(a)) # Error cannot compare int and str
 a = ['bar','foo','too']
-print(min(a)) #Ok
+print(min(a))
 
 s = 'foobar'
 print(s.upper())

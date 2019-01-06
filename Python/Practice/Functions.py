@@ -1,6 +1,6 @@
 #if conditions can be like 
 
-if __name__ == "__main__": #it will run as a main file if its imported somewhere
+if __name__ == "__main__": #Only execute the piece of code it the current script is being run as main file and not used as an imported module.
     l = [1,2,3,4]
     idx = 0
     for item in l:
@@ -8,8 +8,8 @@ if __name__ == "__main__": #it will run as a main file if its imported somewhere
         idx = idx + 1
     print(l)
 
-    for index,val in enumerate(l):   #Returns a tuple (index,val) once size is fixed cannot be modified.
-                                     #append unlike list will not work -> l.append
+    for index,val in enumerate(l):   #Returns a tuple (index,val) (Tuples are immutable - cannot be modified.)
+                                     #append unlike list will not work.
         l[index] = val*2
         print("Item"+str(l[index]))  #Converting Integer to String
 

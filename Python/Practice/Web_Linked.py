@@ -1,20 +1,19 @@
-import urllib2
+from urllib.request import urlopen
 import webbrowser
 import os
 import sys
 def disp_page():
-	req = urllib2.Request('http://belspp.iscodom.com:51600/irj/portal')
-	response = urllib2.urlopen(req)
+	req = urllib.Request('http://www.google.com')
+	response = urllib.urlopen(req)
 	the_page = response.read()
-	print the_page
+	print (the_page)
 
 	
 def call_url():
-	webbrowser.open('http://belspp.iscodom.com:51600/irj/portal')
+	webbrowser.open('http://www.google.com')
 
 	
 def disp_prop():
-	print sys.platform
-	print os.statrtfile
+	print (sys.platform)
+	print (os.statrtfile)
 
-	
