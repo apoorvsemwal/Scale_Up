@@ -54,7 +54,7 @@ Motilal Jawahar Kamala Sanjay Rajiv Rahul Varun Indira
 
 public class FamilyTreeDriver {
 
-	private static final Scanner s = new Scanner(System.in);
+private static final Scanner s = new Scanner(System.in);
 	
 	public static void main(String[] args) {
 		

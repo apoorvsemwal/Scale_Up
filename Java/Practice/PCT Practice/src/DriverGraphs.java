@@ -92,9 +92,7 @@ public class DriverGraphs {
 				neighbours.add(src);
 				graph.getGraph().put(dest, neighbours);
 			}
-
 		}
-
 	}
 
 	private static void breadthFirstTraversal(Graph graph, int start_node) {
