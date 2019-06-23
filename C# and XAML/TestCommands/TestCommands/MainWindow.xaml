@@ -1,0 +1,19 @@
+﻿<Window x:Class="TestCommands.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestCommands"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <StackPanel Width="250">
+            <!--<TextBox Text="{Binding MessageText, Mode=OneWayToSource, UpdateSourceTrigger=PropertyChanged}"/>-->
+            <TextBox x:Name="textBox"/>
+            <ComboBox x:Name="comboBox" ItemsSource="{Binding myMessages}"/>
+            <Button Command="{Binding DisplayMessageCommand}" CommandParameter="{Binding ElementName=textBox, Path=Text}">Message Text Box</Button>
+            <Button Command="{Binding MessageBoxCommand}" CommandParameter="{Binding ElementName=comboBox, Path=SelectedItem}">Message Combo Box</Button>
+            <Button Command="{Binding ConsoleLogCommand}" CommandParameter="{Binding ElementName=comboBox, Path=SelectedItem}">Message Console Log</Button>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,45 @@
+﻿<Window x:Class="MVVMDemoNew.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MVVMDemoNew"
+        xmlns:mod="clr-namespace:MVVMDemoNew.Models"
+        xmlns:vm="clr-namespace:MVVMDemoNew.ViewModels"
+        xmlns:conv="clr-namespace:MVVMDemoNew.ViewModels.Converters"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <mod:Person x:Key="person"/>
+        <vm:ViewModelBase x:Key="viewModel"/>
+        <conv:BackgroundConverter x:Key="GenderColorConverter"/>
+    </Window.Resources>
+
+    <Grid DataContext="{Binding Source={StaticResource person}}"
+          Background="{Binding Path=Gender, 
+                        Converter={StaticResource GenderColorConverter}}">
+        
+        <StackPanel VerticalAlignment="Top" HorizontalAlignment="Center"
+                    Width="300">
+            
+            <TextBox Text="{Binding Path=FirstName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" FontSize="20"/>
+            <TextBox Text="{Binding Path=LastName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" FontSize="20"/>
+            <TextBlock x:Name="FullNameTxt" Text="{Binding Path=FullName}" FontSize="20"/>
+            
+            <ComboBox SelectedValue="{Binding Path=Gender, Mode=TwoWay,
+                      UpdateSourceTrigger=PropertyChanged}">
+                <sys:String>Male</sys:String>
+                <sys:String>Female</sys:String>
+            </ComboBox>
+            
+            <Button Content="Simple Command" 
+                    Command="{Binding Path=SimpleCommand, Source={StaticResource viewModel}}"/>
+            <Button Content="Parameterized Command" 
+                    Command="{Binding Path=ParameterizedCommand, Source={StaticResource viewModel}}" 
+                    CommandParameter="{Binding Path=Text, ElementName=FullNameTxt}"/>
+        </StackPanel>
+    
+    </Grid>
+
+</Window>

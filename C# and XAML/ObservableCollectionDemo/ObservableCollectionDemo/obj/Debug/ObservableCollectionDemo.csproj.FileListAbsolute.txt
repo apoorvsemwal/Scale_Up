@@ -1,0 +1,14 @@
+C:\Apoorv\Train_Apoorv\Codes\ObservableCollectionDemo\ObservableCollectionDemo\bin\Debug\ObservableCollectionDemo.exe.config
+C:\Apoorv\Train_Apoorv\Codes\ObservableCollectionDemo\ObservableCollectionDemo\bin\Debug\ObservableCollectionDemo.exe
+C:\Apoorv\Train_Apoorv\Codes\ObservableCollectionDemo\ObservableCollectionDemo\bin\Debug\ObservableCollectionDemo.pdb
+C:\Apoorv\Train_Apoorv\Codes\ObservableCollectionDemo\ObservableCollectionDemo\obj\Debug\MainWindow.g.cs
+C:\Apoorv\Train_Apoorv\Codes\ObservableCollectionDemo\ObservableCollectionDemo\obj\Debug\App.g.cs
+C:\Apoorv\Train_Apoorv\Codes\ObservableCollectionDemo\ObservableCollectionDemo\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Apoorv\Train_Apoorv\Codes\ObservableCollectionDemo\ObservableCollectionDemo\obj\Debug\ObservableCollectionDemo_MarkupCompile.cache
+C:\Apoorv\Train_Apoorv\Codes\ObservableCollectionDemo\ObservableCollectionDemo\obj\Debug\ObservableCollectionDemo_MarkupCompile.lref
+C:\Apoorv\Train_Apoorv\Codes\ObservableCollectionDemo\ObservableCollectionDemo\obj\Debug\MainWindow.baml
+C:\Apoorv\Train_Apoorv\Codes\ObservableCollectionDemo\ObservableCollectionDemo\obj\Debug\ObservableCollectionDemo.g.resources
+C:\Apoorv\Train_Apoorv\Codes\ObservableCollectionDemo\ObservableCollectionDemo\obj\Debug\ObservableCollectionDemo.Properties.Resources.resources
+C:\Apoorv\Train_Apoorv\Codes\ObservableCollectionDemo\ObservableCollectionDemo\obj\Debug\ObservableCollectionDemo.csproj.GenerateResource.Cache
+C:\Apoorv\Train_Apoorv\Codes\ObservableCollectionDemo\ObservableCollectionDemo\obj\Debug\ObservableCollectionDemo.exe
+C:\Apoorv\Train_Apoorv\Codes\ObservableCollectionDemo\ObservableCollectionDemo\obj\Debug\ObservableCollectionDemo.pdb

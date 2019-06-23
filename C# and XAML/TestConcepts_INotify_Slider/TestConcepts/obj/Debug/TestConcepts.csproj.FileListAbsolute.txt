@@ -1,0 +1,14 @@
+C:\Apoorv\Train_Apoorv\Codes\TestConcepts\TestConcepts\bin\Debug\TestConcepts.exe.config
+C:\Apoorv\Train_Apoorv\Codes\TestConcepts\TestConcepts\bin\Debug\TestConcepts.exe
+C:\Apoorv\Train_Apoorv\Codes\TestConcepts\TestConcepts\bin\Debug\TestConcepts.pdb
+C:\Apoorv\Train_Apoorv\Codes\TestConcepts\TestConcepts\obj\Debug\TestConcepts.csprojResolveAssemblyReference.cache
+C:\Apoorv\Train_Apoorv\Codes\TestConcepts\TestConcepts\obj\Debug\MainWindow.g.cs
+C:\Apoorv\Train_Apoorv\Codes\TestConcepts\TestConcepts\obj\Debug\App.g.cs
+C:\Apoorv\Train_Apoorv\Codes\TestConcepts\TestConcepts\obj\Debug\TestConcepts_MarkupCompile.cache
+C:\Apoorv\Train_Apoorv\Codes\TestConcepts\TestConcepts\obj\Debug\TestConcepts_MarkupCompile.lref
+C:\Apoorv\Train_Apoorv\Codes\TestConcepts\TestConcepts\obj\Debug\MainWindow.baml
+C:\Apoorv\Train_Apoorv\Codes\TestConcepts\TestConcepts\obj\Debug\TestConcepts.g.resources
+C:\Apoorv\Train_Apoorv\Codes\TestConcepts\TestConcepts\obj\Debug\TestConcepts.Properties.Resources.resources
+C:\Apoorv\Train_Apoorv\Codes\TestConcepts\TestConcepts\obj\Debug\TestConcepts.csproj.GenerateResource.Cache
+C:\Apoorv\Train_Apoorv\Codes\TestConcepts\TestConcepts\obj\Debug\TestConcepts.exe
+C:\Apoorv\Train_Apoorv\Codes\TestConcepts\TestConcepts\obj\Debug\TestConcepts.pdb

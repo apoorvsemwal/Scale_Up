@@ -1,0 +1,14 @@
+c:\users\semwalap\documents\visual studio 2017\Projects\WPFCool\WPFCool\bin\Debug\WPFCool.exe.config
+c:\users\semwalap\documents\visual studio 2017\Projects\WPFCool\WPFCool\bin\Debug\WPFCool.exe
+c:\users\semwalap\documents\visual studio 2017\Projects\WPFCool\WPFCool\bin\Debug\WPFCool.pdb
+c:\users\semwalap\documents\visual studio 2017\Projects\WPFCool\WPFCool\obj\Debug\WPFCool.csprojResolveAssemblyReference.cache
+c:\users\semwalap\documents\visual studio 2017\Projects\WPFCool\WPFCool\obj\Debug\MainWindow.g.cs
+c:\users\semwalap\documents\visual studio 2017\Projects\WPFCool\WPFCool\obj\Debug\App.g.cs
+c:\users\semwalap\documents\visual studio 2017\Projects\WPFCool\WPFCool\obj\Debug\WPFCool_MarkupCompile.cache
+c:\users\semwalap\documents\visual studio 2017\Projects\WPFCool\WPFCool\obj\Debug\WPFCool_MarkupCompile.lref
+c:\users\semwalap\documents\visual studio 2017\Projects\WPFCool\WPFCool\obj\Debug\MainWindow.baml
+c:\users\semwalap\documents\visual studio 2017\Projects\WPFCool\WPFCool\obj\Debug\WPFCool.g.resources
+c:\users\semwalap\documents\visual studio 2017\Projects\WPFCool\WPFCool\obj\Debug\WPFCool.Properties.Resources.resources
+c:\users\semwalap\documents\visual studio 2017\Projects\WPFCool\WPFCool\obj\Debug\WPFCool.csproj.GenerateResource.Cache
+c:\users\semwalap\documents\visual studio 2017\Projects\WPFCool\WPFCool\obj\Debug\WPFCool.exe
+c:\users\semwalap\documents\visual studio 2017\Projects\WPFCool\WPFCool\obj\Debug\WPFCool.pdb

@@ -1,0 +1,14 @@
+C:\Apoorv\Train_Apoorv\Codes\TestCommands\TestCommands\bin\Debug\TestCommands.exe.config
+C:\Apoorv\Train_Apoorv\Codes\TestCommands\TestCommands\bin\Debug\TestCommands.exe
+C:\Apoorv\Train_Apoorv\Codes\TestCommands\TestCommands\bin\Debug\TestCommands.pdb
+C:\Apoorv\Train_Apoorv\Codes\TestCommands\TestCommands\obj\Debug\MainWindow.g.cs
+C:\Apoorv\Train_Apoorv\Codes\TestCommands\TestCommands\obj\Debug\App.g.cs
+C:\Apoorv\Train_Apoorv\Codes\TestCommands\TestCommands\obj\Debug\TestCommands_MarkupCompile.cache
+C:\Apoorv\Train_Apoorv\Codes\TestCommands\TestCommands\obj\Debug\TestCommands_MarkupCompile.lref
+C:\Apoorv\Train_Apoorv\Codes\TestCommands\TestCommands\obj\Debug\MainWindow.baml
+C:\Apoorv\Train_Apoorv\Codes\TestCommands\TestCommands\obj\Debug\TestCommands.g.resources
+C:\Apoorv\Train_Apoorv\Codes\TestCommands\TestCommands\obj\Debug\TestCommands.Properties.Resources.resources
+C:\Apoorv\Train_Apoorv\Codes\TestCommands\TestCommands\obj\Debug\TestCommands.csproj.GenerateResource.Cache
+C:\Apoorv\Train_Apoorv\Codes\TestCommands\TestCommands\obj\Debug\TestCommands.exe
+C:\Apoorv\Train_Apoorv\Codes\TestCommands\TestCommands\obj\Debug\TestCommands.pdb
+C:\Apoorv\Train_Apoorv\Codes\TestCommands\TestCommands\obj\Debug\TestCommands.csprojResolveAssemblyReference.cache

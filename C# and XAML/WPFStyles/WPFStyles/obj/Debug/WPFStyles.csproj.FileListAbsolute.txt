@@ -1,0 +1,17 @@
+c:\users\semwalap\documents\visual studio 2017\Projects\WPFStyles\WPFStyles\bin\Debug\WPFStyles.exe.config
+c:\users\semwalap\documents\visual studio 2017\Projects\WPFStyles\WPFStyles\bin\Debug\WPFStyles.exe
+c:\users\semwalap\documents\visual studio 2017\Projects\WPFStyles\WPFStyles\bin\Debug\WPFStyles.pdb
+c:\users\semwalap\documents\visual studio 2017\Projects\WPFStyles\WPFStyles\obj\Debug\WPFStyles.csprojResolveAssemblyReference.cache
+c:\users\semwalap\documents\visual studio 2017\Projects\WPFStyles\WPFStyles\obj\Debug\MainWindow.g.cs
+c:\users\semwalap\documents\visual studio 2017\Projects\WPFStyles\WPFStyles\obj\Debug\App.g.cs
+c:\users\semwalap\documents\visual studio 2017\Projects\WPFStyles\WPFStyles\obj\Debug\WPFStyles_MarkupCompile.cache
+c:\users\semwalap\documents\visual studio 2017\Projects\WPFStyles\WPFStyles\obj\Debug\WPFStyles_MarkupCompile.lref
+c:\users\semwalap\documents\visual studio 2017\Projects\WPFStyles\WPFStyles\obj\Debug\MainWindow.baml
+c:\users\semwalap\documents\visual studio 2017\Projects\WPFStyles\WPFStyles\obj\Debug\WPFStyles.g.resources
+c:\users\semwalap\documents\visual studio 2017\Projects\WPFStyles\WPFStyles\obj\Debug\WPFStyles.Properties.Resources.resources
+c:\users\semwalap\documents\visual studio 2017\Projects\WPFStyles\WPFStyles\obj\Debug\WPFStyles.csproj.GenerateResource.Cache
+c:\users\semwalap\documents\visual studio 2017\Projects\WPFStyles\WPFStyles\obj\Debug\WPFStyles.exe
+c:\users\semwalap\documents\visual studio 2017\Projects\WPFStyles\WPFStyles\obj\Debug\WPFStyles.pdb
+c:\users\semwalap\documents\visual studio 2017\Projects\WPFStyles\WPFStyles\obj\Debug\App.baml
+c:\users\semwalap\documents\visual studio 2017\Projects\WPFStyles\WPFStyles\obj\Debug\ResourceDictionaries\TextDictionary.baml
+c:\users\semwalap\documents\visual studio 2017\Projects\WPFStyles\WPFStyles\obj\Debug\ResourceDictionaries\ButtonDictionary.baml

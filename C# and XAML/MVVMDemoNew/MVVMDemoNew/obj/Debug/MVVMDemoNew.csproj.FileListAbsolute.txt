@@ -1,0 +1,15 @@
+C:\Apoorv\Train_Apoorv\Codes\MVVMDemoNew\MVVMDemoNew\bin\Debug\MVVMDemoNew.exe.config
+C:\Apoorv\Train_Apoorv\Codes\MVVMDemoNew\MVVMDemoNew\bin\Debug\MVVMDemoNew.exe
+C:\Apoorv\Train_Apoorv\Codes\MVVMDemoNew\MVVMDemoNew\bin\Debug\MVVMDemoNew.pdb
+C:\Apoorv\Train_Apoorv\Codes\MVVMDemoNew\MVVMDemoNew\obj\Debug\MainWindow.g.cs
+C:\Apoorv\Train_Apoorv\Codes\MVVMDemoNew\MVVMDemoNew\obj\Debug\App.g.cs
+C:\Apoorv\Train_Apoorv\Codes\MVVMDemoNew\MVVMDemoNew\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Apoorv\Train_Apoorv\Codes\MVVMDemoNew\MVVMDemoNew\obj\Debug\MVVMDemoNew_MarkupCompile.cache
+C:\Apoorv\Train_Apoorv\Codes\MVVMDemoNew\MVVMDemoNew\obj\Debug\MVVMDemoNew_MarkupCompile.lref
+C:\Apoorv\Train_Apoorv\Codes\MVVMDemoNew\MVVMDemoNew\obj\Debug\MainWindow.baml
+C:\Apoorv\Train_Apoorv\Codes\MVVMDemoNew\MVVMDemoNew\obj\Debug\MVVMDemoNew.g.resources
+C:\Apoorv\Train_Apoorv\Codes\MVVMDemoNew\MVVMDemoNew\obj\Debug\MVVMDemoNew.Properties.Resources.resources
+C:\Apoorv\Train_Apoorv\Codes\MVVMDemoNew\MVVMDemoNew\obj\Debug\MVVMDemoNew.csproj.GenerateResource.Cache
+C:\Apoorv\Train_Apoorv\Codes\MVVMDemoNew\MVVMDemoNew\obj\Debug\MVVMDemoNew.exe
+C:\Apoorv\Train_Apoorv\Codes\MVVMDemoNew\MVVMDemoNew\obj\Debug\MVVMDemoNew.pdb
+C:\Apoorv\Train_Apoorv\Codes\MVVMDemoNew\MVVMDemoNew\obj\Debug\MVVMDemoNew.csprojResolveAssemblyReference.cache

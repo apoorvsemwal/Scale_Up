@@ -1,0 +1,118 @@
+﻿<Window x:Class="TestConcepts.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestConcepts"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <!--<Style TargetType="Button" x:Key="ButtonStyle">
+            <Setter Property="Background" Value="teal"></Setter>
+            <Setter Property="FontWeight" Value="extrabold"></Setter>
+        </Style>
+
+        <Style BasedOn="{StaticResource ButtonStyle}"  TargetType="Button" x:Key="ButtonStyleChild">
+            <Setter Property="Foreground" Value="BlanchedAlmond"></Setter>
+        </Style>-->
+        
+        <!--Template Used with Style-->
+        <local:Person x:Key="Person"/>
+        <Style TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid>
+                            <Ellipse Fill="Red"/>
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"></ContentPresenter>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+    </Window.Resources>
+
+    <!--<StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" >
+
+        <Button Content="Dynamic Binding Test" Background="{DynamicResource DynamicBrush}" HorizontalAlignment="Center" VerticalAlignment="Top" Height="75"/>
+                
+        <Button Content="Change Red" Style="{StaticResource ButtonStyle}" HorizontalAlignment="Center" VerticalAlignment="Center" Width="160" Height="54" Click="Button_Click"/>
+        
+        <Button Content="Change Blue" HorizontalAlignment="Center" VerticalAlignment="Center" Width="160" Height="54" Click="Button_Click_1">
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background" Value="Cyan"/>
+                    <Setter Property="FontWeight" Value="ExtraBold"/>
+                </Style>
+            </Button.Style>
+        </Button>
+        
+        <CheckBox Name="chkMe"  Content="CheckMe"></CheckBox>
+
+        <Button Content="Hover over Me!" HorizontalAlignment="Center" VerticalAlignment="Center" Width="160" Height="54" Click="Button_Click">
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background" Value="Black"/>
+                    <Setter Property="Foreground" Value="Aqua"/>
+                    --><!--<Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Foreground" Value="Red"/>
+                            <Setter Property="FontWeight" Value="ExtraBold"/>
+                        </Trigger>
+                    </Style.Triggers>--><!--
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding ElementName= chkMe, Path= IsChecked}" Value="True">
+                            <Setter Property="Foreground" Value="Red"/>
+                            <Setter Property="FontWeight" Value="ExtraBold"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
+        
+        <TextBlock Name="lblStyle" FontSize="18" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Animate TextBlock" VerticalAlignment="Center">
+            <TextBlock.Style>
+                <Style TargetType="TextBlock">
+                    <Style.Triggers>
+                        <EventTrigger RoutedEvent="MouseEnter">
+                            <EventTrigger.Actions>
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.300" Storyboard.TargetProperty="FontSize"
+                                                         To="30"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger.Actions>
+                        </EventTrigger>
+                        <EventTrigger RoutedEvent="MouseLeave">
+                            <EventTrigger.Actions>
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0:0:0.300" Storyboard.TargetProperty="FontSize"
+                                                         To="18"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger.Actions>
+                        </EventTrigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBlock.Style>
+        </TextBlock>
+    </StackPanel>-->
+    <!--<Grid>
+        <Viewbox>
+            <TextBox Text="{Binding ElementName=MyWindow, Path=counterProperty}"/>
+        </Viewbox>
+    </Grid>-->
+    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+        <Slider IsSnapToTickEnabled="True" Name="MySlider" Minimum="0" Maximum="100"/>
+        
+        <!--Target is Text Property which is a Dependency Property-->
+        <TextBox Name="MyTxt" Width="60" Text="{Binding ElementName=MySlider, Path=Value, Mode=TwoWay,
+                                                UpdateSourceTrigger=PropertyChanged}"/>
+        <Button Content="Press Me" Height="60" Width="160"  Click="Button_Click"/>
+        <TextBox Name="MyTxt2" Width="200" Text="{Binding Source={StaticResource Person}, Path=Name, Mode=OneWayToSource, UpdateSourceTrigger=PropertyChanged}"/>
+        <TextBlock Name="MyTxt3" Width="200" Text="{Binding Source={StaticResource Person}, Path=Name}"/>
+    </StackPanel>
+</Window>
