@@ -18,13 +18,15 @@ def close_db_connection(connection):
     if connection:
         connection.close()
 
-#3373857,3373984,3102385,1987034
+# 3373857,3373984,3102385,1987034
+
+
 def prepare_input_data(connection):
     lat_long_cur = connection.cursor()
     lat_long_cur.execute("SELECT trip.id, timestamp_txt, latitude, longitude "
-                         "FROM public.interne_trips trip INNER JOIN public.interne_coordinates cord ON trip.id = cord.trip_id "
-                         "WHERE cord.timestamp_txt >= trip.timestamp_start AND cord.timestamp_txt >= "
-                         "trip.timestamp_end AND (trip.id = 1987034 OR trip.id = 3102385)")
+                         "FROM public.interne_trips trip INNER JOIN public.interne_coordinates cord "
+                         "ON trip.id = cord.trip_id WHERE cord.timestamp_txt >= trip.timestamp_start "
+                         "AND cord.timestamp_txt <= trip.timestamp_end AND (trip.id = 2248034)")
 
     row_one = lat_long_cur.fetchone()
     fin_data = list()

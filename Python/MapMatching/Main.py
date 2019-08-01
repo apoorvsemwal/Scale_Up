@@ -1,5 +1,6 @@
 import PrepareInputData as Pid
-import RequestOSRM as OSRM
+import RequestOSRM as Osrm
+
 
 def main():
 
@@ -7,7 +8,7 @@ def main():
 
     [fin_data, unq_trips] = Pid.prepare_input_data(connection)
 
-    OSRM.make_osrm_calls(fin_data, unq_trips)
+    Osrm.make_osrm_calls(fin_data, unq_trips)
 
     Pid.close_db_connection(connection)
 
