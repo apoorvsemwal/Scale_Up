@@ -1,0 +1,2 @@
+import SearchesInAI
+SearchesInAI.main()
